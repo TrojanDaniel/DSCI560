@@ -1,7 +1,6 @@
 
 
 import json
-
 file_1=open('dataset_a.json','r')
 rand_nums=file_1.read()
 rand_nums_list=json.loads(rand_nums)
