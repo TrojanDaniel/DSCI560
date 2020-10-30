@@ -47,7 +47,7 @@ execute python3 gen_dataset_a.py to run the script
 
 4- Extract the dependencies of your virtual environment
   
-  a  These are extracted dependencies which are stored in requirements.txt.
+  a  These are dependencies installed in virtual environment
     
 ![image](https://raw.githubusercontent.com/TrojanDaniel/DSCI560/master/venv_screenshots/requirements.png)
   
@@ -57,7 +57,7 @@ execute python3 gen_dataset_a.py to run the script
   b  Create .gitignore to filter docs
   
   
-  c  Upload the dependencies' file    requirements.txt
+  c  extract the dependencies' file by running pip freeze>requirements.txt
  
 Remember to run deactivate to close virtual environment
 
